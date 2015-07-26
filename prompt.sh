@@ -274,7 +274,6 @@ function load_prompt () {
 load_prompt
 
 alias less='less -R'
-#export GREP_OPTIONS='--color=auto'
 export HISTSIZE=5000
 export HISTFILESIZE=5000
 
