@@ -154,12 +154,12 @@ function promptcmd () {
     fi
     
     # Detached Screen Sessions
-    local DTCHSCRN=$(screen -ls | grep -c Detach )
-    if [ ${DTCHSCRN} -gt 2 ]; then
-        PS1="${PS1}\[${COLOR_RED}\][scr:${DTCHSCRN}] "
-    elif [ ${DTCHSCRN} -gt 0 ]; then
-        PS1="${PS1}\[${COLOR_YELLOW}\][scr:${DTCHSCRN}] "
-    fi
+    #local DTCHSCRN=$(screen -ls | grep -c Detach )
+    #if [ ${DTCHSCRN} -gt 2 ]; then
+    #    PS1="${PS1}\[${COLOR_RED}\][scr:${DTCHSCRN}] "
+    #elif [ ${DTCHSCRN} -gt 0 ]; then
+    #    PS1="${PS1}\[${COLOR_YELLOW}\][scr:${DTCHSCRN}] "
+    #fi
     
     # Backgrounded running jobs
     #local BKGJBS=$(jobs -r | wc -l )
